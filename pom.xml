@@ -5,6 +5,7 @@
     <modules>
         <module>config-server</module>
         <module>eureka-server</module>
+        <module>employee-server</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
