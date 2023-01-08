@@ -1,7 +1,7 @@
 package com.softcode.employeemanagement.service.impl;
 
-import com.softcode.employeemanagement.model.DutyChangeEvent;
 import com.softcode.employeemanagement.service.MessageProducerService;
+import com.softcode.rabbitmqmodel.DutyChangeEvent;
 import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;

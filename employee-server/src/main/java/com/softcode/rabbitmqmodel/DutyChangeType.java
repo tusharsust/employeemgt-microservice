@@ -1,4 +1,4 @@
-package com.softcode.employeemanagement.model;
+package com.softcode.rabbitmqmodel;
 
 public enum DutyChangeType {
     CREATED,

@@ -1,7 +1,7 @@
 package com.softcode.employeemanagement.service;
 
 
-import com.softcode.employeemanagement.model.DutyChangeEvent;
+import com.softcode.rabbitmqmodel.DutyChangeEvent;
 
 public interface MessageProducerService {
     String produceDutyChangeMessage(DutyChangeEvent dutyChangeEvent);

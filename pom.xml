@@ -6,6 +6,7 @@
         <module>config-server</module>
         <module>eureka-server</module>
         <module>employee-server</module>
+        <module>notification-server</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

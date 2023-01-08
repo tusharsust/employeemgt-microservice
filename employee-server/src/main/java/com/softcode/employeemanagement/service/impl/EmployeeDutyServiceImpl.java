@@ -5,13 +5,13 @@ import com.softcode.employeemanagement.entity.EmployeeEntity;
 import com.softcode.employeemanagement.exception.EmployeeDutyNotFoundException;
 import com.softcode.employeemanagement.exception.EmployeeNotFoundException;
 import com.softcode.employeemanagement.exception.InvalidIdSuppliedException;
-import com.softcode.employeemanagement.model.DutyChangeEvent;
-import com.softcode.employeemanagement.model.DutyChangeType;
 import com.softcode.employeemanagement.model.EmployeeDuty;
 import com.softcode.employeemanagement.repository.EmployeeDutyRepository;
 import com.softcode.employeemanagement.repository.EmployeeRepository;
 import com.softcode.employeemanagement.service.EmployeeDutyService;
 import com.softcode.employeemanagement.service.MessageProducerService;
+import com.softcode.rabbitmqmodel.DutyChangeEvent;
+import com.softcode.rabbitmqmodel.DutyChangeType;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
 

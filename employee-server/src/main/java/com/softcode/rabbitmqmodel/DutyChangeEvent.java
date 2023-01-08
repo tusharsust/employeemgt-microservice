@@ -1,4 +1,4 @@
-package com.softcode.employeemanagement.model;
+package com.softcode.rabbitmqmodel;
 
 import lombok.*;
 
